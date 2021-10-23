@@ -1,0 +1,379 @@
+/* ######################### VARIABLES ######################### */
+:root{
+    --color-team-plants: #63c750;
+    --color-team-plants-alpha: rgba(99, 199, 80, 0.6);
+    --color-team-zombies: #8b5de8;
+    --color-team-zombies-alpha: rgba(139, 93, 232, 0.6);
+
+    --image-char-size: min(512px, 100%);
+}
+
+/* ######################### BUTTONS & MENUS ######################### */
+
+#plants-btn, #zombies-btn{
+    width: calc(50vw - 0vw);
+    height: calc(50vw - 0vw);
+    /* background-color: transparent; */
+    min-width: 220px;
+    min-height: 220px;
+    max-width: 512px;
+    max-height: 512px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+#plants-btn {
+    background-color: var(--color-team-plants-alpha);
+}
+
+#zombies-btn {
+    background-color: var(--color-team-zombies-alpha);
+}
+
+#settings-btn{
+    background-color: rgba(128, 128, 128, 0.6);
+    color: rgba(22, 20, 20, 0.5);
+    position:  fixed;
+    align-self: flex-end;
+
+}   /* EFFECT #################### */
+#settings-btn:hover{
+        cursor: pointer;
+        background-color: rgba(128, 128, 128, 0.90);
+        color: rgba(22, 20, 20, 1);
+} /* EFFECT #################### */
+
+#timer-container{
+    background-color: rgba(245, 245, 245, 0.45);
+    color: rgba(0, 0, 0, 0.7);
+    min-height: 68px;
+}
+
+#return-btn{
+    position: fixed;
+    top: 83.8vh;
+    left: calc(50vw - (161px/2));
+    border-radius: 15px;
+    background-color: rgb(91, 159, 204);
+    color: black;
+    transition: background-color 0.5s;
+}   /* EFFECT #################### */
+#return-btn:hover{
+        background-color: rgb(21, 89, 134);
+        cursor: pointer;
+        color: rgb(223, 217, 217);
+        /* text-shadow: 2px 0 0 #ffffff, -2px 0 0 #ffffff, 0 2px 0 #ffffff, 0 -2px 0 #ffffff, 1px 1px #ffffff, -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff; */
+} /* EFFECT #################### */
+
+#reset-timer{
+    border-radius: 15px;
+    border: 2px solid rgba(187, 171, 30, 0.753);
+    background-color: rgba(238, 218, 42, 0.753);
+    color: rgb(48, 48, 48);
+    /* transition: opacity 0.5s; */
+    opacity: 0.7;
+}
+
+#reset-timer:hover{
+    opacity: 1;
+    color: black;
+}
+
+#menu{
+    padding: 6.5vh 4.5vw;
+    height: fit-content;
+    width: fit-content;
+    background-color: rgba(255, 248, 220, 0.507);
+    /* backdrop-filter: blur(3px); */
+}
+
+#menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    /* background-color: rgba(255, 255, 255, 0.2); */
+    backdrop-filter: blur(3px);
+    position: fixed;
+    /* visibility: hidden; */
+}
+
+#title {
+    position: fixed;
+    align-self: flex-start;
+    font-size: 24px;
+}
+
+/* ######################### GENERAL ######################### */
+
+td{
+    vertical-align: middle;
+    margin: 4px 0px;
+    padding: 0px 6px;
+}
+
+thead{ margin-bottom: 16px; }
+
+body {
+    background-position: center center;
+    background-size: cover;
+    background-blend-mode: color;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+/* ######################### IMAGES ######################### */
+
+.img-char {
+    width: var(--image-char-size);
+    height: var(--image-char-size);
+    object-fit: cover;
+}
+
+.img-char-icon{
+    color: initial;
+    object-fit: cover;
+    height: 36px;
+    width: 36px; 
+}
+
+.img-team-icon{
+    height: 48px;
+    width: 48px; }
+
+.img-team-title{
+    height: 72px;
+    width: 72px;
+}
+
+/* ######################### INPUTS ######################### */
+
+.input-checkbox{
+    height: 24px;
+    width: 24px;
+}
+
+.text-box-selected{
+    padding: 3px 2px;
+    border: 2px solid #1c40a5;
+    border-radius: 4px;
+    background-color: rgb(91, 159, 204);
+    opacity: 75%;
+}
+
+.text-box-desselected{
+    padding: 3px 2px;
+    border: 2px dashed rgb(94, 90, 86);
+    border-radius: 4px;
+    background-color: transparent;
+    opacity: 75%;
+}
+
+.text-box-selected:hover{
+    opacity: 100%;
+    font-weight: 700;
+}
+
+.text-box-desselected:hover{
+    border-style: solid;
+    background-color: rgba(128, 128, 128, 0.623);
+    opacity: 100%;
+    font-weight: 700;
+}
+
+form > * {
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+/* CLASSES FOR REFERENCE */
+.plants-probability-input{
+    color: #63c750;
+}
+
+.zombies-probability-input{
+    color: #8b5de8;
+}
+
+.menu-title {
+    font-size: min(32px, calc(100vw/455 * 32));
+}
+
+.char-name, .option-name {
+    font-size: min(20px, calc(100vw/455 * 20));
+}
+
+.set-text {
+    font-size: clamp(24px, calc(100vw/1024 * 72), 72px);
+}
+
+.menu-button {
+    display: none;
+    background-color: rgba(128, 128, 128, 0.623);
+    min-width: 64px;
+    min-height: 64px;
+    font-size: 48px;
+    margin: 0px 0.5em;
+    text-align: center;
+}
+
+.menu-table:nth-child(2) {
+    padding-bottom: 4vh;
+}
+
+/* Reestructuration */
+@media (min-width: 1190px) {
+    .menu-table {
+        display: flex !important;
+    }
+}
+
+/* PC */
+@media (max-width: 1190px) {
+    .menu-button {
+        display: inline-block;
+    }
+
+    #menu{
+        width: 75vw;
+        max-width: 512px;
+        height: 80vh;
+        padding: 6.5vh 4.5vw;
+        justify-content: center;
+        margin: 0px !important;
+        background-color: rgba(255, 248, 220, 0.507);
+    }
+
+    #return-btn {
+        display: inline-block !important;
+    }
+}
+
+/* TABLET */
+@media (max-width: 740px) {
+
+    .menu-button {
+        position: fixed;
+        align-self: flex-end;
+        width: 33vw;
+        background-color: rgba(128, 128, 128, 0.623);
+        min-width: 64px;
+        min-height: 64px;
+        font-size: 48px;
+        margin-right: 73vw;
+        text-align: center;
+    }
+
+    .menu-button:last-child {
+        margin-right: 0px;
+        margin-left: 67vw;
+    }
+}
+
+/* MOBILE LARGE */
+@media (max-width: 570px) {
+
+    body{
+        align-content: center;
+    }
+
+    #plants-btn, #zombies-btn{
+        margin: 12px 0px;
+    }
+
+    #settings-btn{ width: 100vw; }
+
+    #return-btn{
+        top: calc(100vh - 64px);
+        left: calc(50vw - (33vw/2));
+        border-radius: 0px;
+        width: 33vw;
+        height: 64px;
+        padding: 0px;
+        text-align: center;
+        font-size: min(20px, calc(100vw/600 * 32));
+    }
+
+    #title{
+        width: 100vw;
+    }
+
+    #timer-container{
+        flex-grow: 1;
+    }
+
+    #settings-btn{
+        cursor: pointer;
+        background: rgb(28,64,165);
+        background: linear-gradient(0deg, rgba(28,64,165,1) 8%, rgba(77,108,194,1) 73%);
+        color: black;
+    }
+
+    #menu{
+        /* padding: 6.5vh 4.5vw; */
+        width: 100vw;
+        height: 100vh;
+        max-width: none;
+        margin: 0px !important;
+        padding: 12px 6px;
+        padding-left: 3px;
+        background-color: rgba(255, 248, 220, 0.507);
+    }
+
+    .menu-table {
+        /* align-self: center; */
+        /* padding: 11.5vh 0vh !important; */
+    }
+
+    .menu-table:nth-child(2) {
+        padding-bottom: 12vh;
+    }
+
+    .img-char {
+        width: var(--image-char-size);
+        height: auto;
+        object-fit: cover;
+    }
+
+    #plants-btn, #zombies-btn {
+        height: calc(50vw - 0vw);
+    }
+
+    .menu-button {
+        position: fixed;
+        align-self: flex-end;
+        width: 33vw;
+        background-color: rgba(128, 128, 128, 0.623);
+        min-width: 64px;
+        min-height: 64px;
+        font-size: 48px;
+        margin-right: 73vw;
+        text-align: center;
+    }
+
+    .menu-button:last-child {
+        margin-right: 0px;
+        margin-left: 67vw;
+    }
+}
+
+/* MOBILE SMALL */
+@media (max-width: 375px) {
+    #timer-container {
+        padding-left: 3px;
+        padding-right: 3px;
+    }
+
+    #timer-container > *{
+        font-size: calc(100vw/370 * 18);
+    }
+}

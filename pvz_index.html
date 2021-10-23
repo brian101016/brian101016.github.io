@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <link href="../Wold Global/rem_def.css" rel="stylesheet"/>
+            <link href="./pvz_styles.css" rel="stylesheet"/>
+            <link rel="icon" type="image/png" href="./images/misc/webicon.png" />
+        <title>PvZ: BfN Character Randomizer!</title>
+    </head>
+
+    <!-- Body -->
+    <body class="flex-row width-100vw height-100vh flex-justify-evenly flex-align-center background-repeat-not">
+        
+        <button id="plants-btn" class="no-selectable font-size-72px border-disable flex-column-r flex-justify-center flex-align-center">
+        </button>
+
+        <button id="zombies-btn" class="no-selectable font-size-72px border-disable flex-column-r flex-justify-center flex-align-center">
+        </button>
+
+        <button id="settings-btn" class="no-selectable font-size-24px bold-text border-disable padding-v-12px">Cambiar Probabilidades</button>
+        
+        <div id="title" class="flex-row flex-align-start">
+
+            <img src="./images/misc/team_1.png" class="img-team-title"/>
+
+            <div id="timer-container" class="bold-text flex-column flex-justify-center flex-align-center padding-v-6px padding-h-12px">
+                <span style="margin-bottom: 8px;">Next character in:</span>
+                <span id="timer-display" class="no-selectable bold-text">loading...</span>
+            </div>
+
+            <img src="./images/misc/team_2.png" class="img-team-title"/>
+
+        </div>
+
+        <!-- Menu -->
+        <div id="menu-container" class="width-100vw height-100vh flex-row flex-justify-center flex-align-center" style="visibility: hidden;">
+            <button class="menu-button border-disable" onclick="prev_menu()"> < </button>
+            <form id="menu" class="flex-row flex-justify-between" style="margin-top: 16px;">
+
+                <!-- PLANTS TABLE -->
+                <table class="menu-table font-size-20px bold-text flex-column flex-align-center" style="display: flex">
+                    <thead>
+                        <td> <img src="./images/misc/team_1.png" class="img-team-icon"/> </td>
+                        <td> <span class="menu-title" > Equipo </span> </td>
+                        <td> <span class="menu-title text-shadow" style="color: #63c750;"> PLANTAS: </span> </td>
+                    </thead>
+
+                    <tr> <td> <img src="./images/character/icons/plants1.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Chicharito</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants2.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Planta carnívora</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants3.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Coronel Elote</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants4.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Champi Nocturna</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants5.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Boca de dragón</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants6.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Cactus</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+                    
+                    <tr> <td> <img src="./images/character/icons/plants7.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Naranjo</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants8.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Bellota</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants9.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Girasol</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants10.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Rosa</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/plants11.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Flor salvaje</span> </td>
+                        <td> <input class="plants-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                </table>
+
+                <!-- OPTIONS TABLE -->
+                <div class="menu-table font-size-20px bold-text flex-column flex-align-stretch flex-justify-between margin-h-20px" style="display: none;" >
+
+                    <div class="flex-row flex-justify-center flex-align-center"> <!-- ENCABEZADOS -->
+                        <img src="./images/misc/options_icon.png" class="img-team-icon margin-h-6px"/>
+                        <span class="menu-title text-shadow margin-h-6px" style="color: #868686;"> OPCIONES: </span> 
+                    </div>
+
+                    <!-- REPETIR PERSONAJE -->
+                    <div class="flex flex-align-center flex-justify-center">
+                        <label class="option-name">Repetir personaje anterior:&nbsp;</label>
+                        <input id="repetir-personaje" type="checkbox" class="input-checkbox"/>
+                    </div>
+
+                    <!-- AUTO GENERAR --> 
+                    <div class="flex-column">
+                        <div class="flex flex-justify-center" style="margin-bottom: 10px;"> <label class="option-name">Auto-generar después de:</label> </div>
+                        <div class="flex-column flex-align-center flex-justify-around">
+
+                            <select id="generar-intervalo" class="font-size-18px" style="margin-bottom: 10px;">
+                                <option value="0">Hacer clic</option>
+                                <option value="0.08333">5 segundos</option>
+                                <option value="0.5">30 segundos</option>
+                                <option value="2">2 minutos</option>
+                                <option value="3">3 minutos</option>
+                                <option value="5">5 minutos</option>
+                                <option value="8">8 minutos</option>
+                                <option value="10">10 minutos</option>
+                                <option value="12">12 minutos</option>
+                                <option value="15">15 minutos</option>
+                                <option value="20">20 minutos</option>
+                                <option value="25">25 minutos</option>
+                                <option value="30">30 minutos</option>
+                            </select>
+
+                            <button id="reset-timer" class="font-size-16px bold-text padding-v-8px padding-h-12px">
+                                Reiniciar temporizador
+                            </button>
+
+                        </div>
+                    </div>
+                    
+
+                    <!-- SELECCIONAR MEJORAS -->
+                    <div class="flex-column flex-align-center">
+
+                        <div style="margin-bottom: 12px;"> <label class="option-name">Auto-seleccionar sets:</label> </div>
+
+                        <div>
+                            <button name="sets" class="text-box-selected normal-text margin-h-12px font-size-20px">Set 1</button>
+                            <button name="sets" class="text-box-selected normal-text margin-h-12px font-size-20px">Set 2</button>
+                            <button name="sets" class="text-box-selected normal-text margin-h-12px font-size-20px">Set 3</button>
+                        </div>
+
+                    </div>
+
+                    <!-- IMAGEN DE PERSONAJES -->
+                    <div class="flex-column flex-align-center">
+                        <div style="margin-bottom: 10px;"> <span class="option-name">Imagen de personajes: </span> </div>
+                        <div>
+                            <select id="imagen-personajes" class="font-size-18px">
+                                <option value="classic">Clásica</option>
+                                <option value="alt">Alterna</option>
+                                <option value="real">Realista</option>
+                                <option value="meme">Meme</option>
+                                <option value="none">Sin imagen</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+
+                    <!-- IMAGEN DE FONDO -->
+                    <div class="flex-column flex-align-center">
+                        <div style="margin-bottom: 10px;"> <span class="option-name">Fondo de pantalla: </span> </div>
+                        <div>
+                            <select id="imagen-fondo" class="font-size-18px text-center">
+                                <option value="random"> -- Fondo al azar -- </option>
+                                <option value="none"> -- Sin fondo -- </option>
+                                <optgroup label="Mapas Clásicos">
+                                    <option value="classic_maps/planicies">Planicies Rocosas</option>
+                                    <option value="classic_maps/fosil">Fósil Colosal</option>
+                                    <option value="classic_maps/fabrica">Fábrica Z-Tech</option>
+                                    <option value="classic_maps/ruinas">Ruinas Ruinosas</option>
+                                    <option value="classic_maps/puerto">Puerto Presión</option>
+                                    <option value="classic_maps/calle">Calle Margarita</option>
+                                    <option value="classic_maps/baba">Babarreserva Z-Tech</option>
+                                </optgroup>
+                                <optgroup label="Mapas Territorios">
+                                    <option value="turf_maps/zanja">Zanja Mocosa</option>
+                                    <option value="turf_maps/acres">Acres Leñosos</option>
+                                    <option value="turf_maps/pastos">Pastos Preservados</option>
+                                    <option value="turf_maps/isla">Isla Trampa Turística</option>
+                                    <option value="turf_maps/punto">Punto de Inflexión</option>
+                                    <option value="turf_maps/distrito">Distrito Durazno</option>
+                                </optgroup>
+                                <optgroup label="Otros">
+                                    <option value="other/title">Título</option>
+                                    <option value="other/dave">Mansión de Dave</option>
+                                    <option value="other/zomboss">Dr. Zombi HQ</option>
+                                    <option value="other/penny">Penny</option>
+                                    <option value="other/reward">Recompens-A-Trón 9000</option>
+                                    <option value="other/portal">Portal</option>
+                                    <option value="other/pesca">Amigo de Pesca</option>
+                                    <option value="other/loading">Pantalla de carga</option>
+                                    <option value="other/bug">Playstation</option>
+                                </optgroup>
+                                <optgroup label="Eventos">
+                                    <option value="events/nieve">Día de Nieve</option>
+                                    <option value="events/san">San Cerebrín</option>
+                                    <option value="events/suerte">Suerte del Zombie</option>
+                                    <option value="events/primavera">Primaveridad</option>
+                                    <option value="events/cump">Cumpleañoz</option>
+                                    <option value="events/fiesta">Fiesta de Jardín</option>
+                                    <option value="events/noches">Noches de Verano</option>
+                                    <option value="events/diaz">Díaz de Verano</option>
+                                    <option value="events/festival">Festival de Otoño</option>
+                                    <option value="events/patio">Patio de la Perdición</option>
+                                    <option value="events/pelea">Pelea de Comida</option>
+                                    <option value="events/festivus">Festivus</option>
+                                </optgroup>
+                                <optgroup label="Regiones">
+                                    <option value="regions/center_p">El Centro (Plantas)</option>
+                                    <option value="regions/center_z">El Centro (Zombies)</option>
+                                    <option value="regions/cheese">Monte Escarpado</option>
+                                    <option value="regions/bosque">Bosque Raroso</option>
+                                </optgroup>
+                                <optgroup label="Jefes de Región">
+                                    <option value="boss/donchido">Don Chido</option>
+                                    <option value="boss/champi">Champi Plaga</option>
+                                    <option value="boss/problemota">Problemota</option>
+                                    <option value="boss/bosque">Bosque Terrorífico</option>
+                                </optgroup>
+                            </select>
+                        </div>
+                    </div>
+
+                    <!-- REGRESAR
+                    <div class="flex flex-justify-center">
+                        <button id="return-btn" class="border-disable bold-text font-size-20px padding-h-24px padding-v-6px">REGRESAR</button>
+                    </div> -->
+                </div>
+
+                <!-- ZOMBIE TABLE -->
+                <table class="menu-table font-size-20px bold-text flex-column flex-align-center" style="display: none;">
+                    <thead>
+                        <td> <img src="./images/misc/team_2.png" class="img-team-icon"/> </td>
+                        <td> <span class="menu-title" > Equipo </span> </td>
+                        <td> <span class="menu-title text-shadow" style="color: #8b5de8;"> ZOMBIES: </span> </td>
+                    </thead>
+
+                    <tr> <td> <img src="./images/character/icons/zombies1.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Soldado</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies2.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Zombidito</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies3.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Supercerebroz</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies4.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Héroe de acción</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies5.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Pati Neta</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies6.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Cap. Barbamuerta</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+                    
+                    <tr> <td> <img src="./images/character/icons/zombies7.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">All-Star</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies8.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Cadete espacial</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies9.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Científico</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies10.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Ingeniero</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies11.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Mago</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                    <tr> <td> <img src="./images/character/icons/zombies12.png" class="img-char-icon"/> </td>
+                        <td> <span class="char-name">Cabezatele</span> </td>
+                        <td> <input class="zombies-probability-input" type="range" step="10" list="tickmarks" /> </td> </tr>
+
+                </table>
+
+                <button id="return-btn" class="border-disable bold-text font-size-20px padding-h-24px padding-v-6px">REGRESAR</button>
+
+                <!-- Para los valores de probabilidades -->
+                <datalist id="tickmarks">
+                    <option value="0"></option>
+                    <option value="10"></option>
+                    <option value="20"></option>
+                    <option value="30"></option>
+                    <option value="40"></option>
+                    <option value="50"></option>
+                    <option value="60"></option>
+                    <option value="70"></option>
+                    <option value="80"></option>
+                    <option value="90"></option>
+                    <option value="100"></option>
+                </datalist>
+
+            </form>
+            <button class="menu-button border-disable" onclick="next_menu()"> > </button>
+        </div>
+
+        <!-- Scripts -->
+        <script src="../Wold Global/scripts.js"></script>
+        <script src="./pvz_script.js"></script>
+        <script>
+            let menu = 1;
+            const menus = document.querySelectorAll(".menu-table");
+            function next_menu() {
+                const previous = menu - 1;
+                menu += 1;
+                if(menu > 3) menu = 1;
+                menus[previous].style.display = "none";
+                menus[menu - 1].style.display = "flex";
+            }
+
+            function prev_menu() {
+                const previous = menu - 1;
+                menu -= 1;
+                if(menu < 1) menu = 3;
+                menus[previous].style.display = "none";
+                menus[menu - 1].style.display = "flex";
+            }
+        </script>
+    </body>
+</html>
