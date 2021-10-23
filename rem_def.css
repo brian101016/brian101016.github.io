@@ -1,0 +1,300 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+*{ box-sizing: inherit; }
+
+/* aqui comienzan los estilos personalizados */
+
+/* ################################################################ */
+/* ################################################################ */
+
+/* ################################ TEXT STYLE ################################ */
+
+.normal-text{
+	font-weight: 400;
+	font-style: normal;
+	text-decoration: none;
+	text-shadow: none;
+}
+
+.bold-text{ font-weight: 700; }
+.italic-text{ font-style: italic; }
+.cross-text{ text-decoration: line-through; }
+
+.cross-diag-text { background: linear-gradient(to left top, transparent 47.75%, currentColor 49.5%, currentColor 50.5%, transparent 52.25%); }
+
+.text-shadow{ text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000; }
+.text-shadow-x2{ text-shadow: 3px 3px 0 #000, 4px 0px 0 #000, 3px -3px 0 #000, 0px 4px 0 #000, 0px -4px 0 #000, -3px 3px 0 #000, -4px 0px 0 #000, -3px -3px 0 #000}
+
+/* ################################ TEXT ALIGN ################################ */
+
+.text-left{ text-align: left; }
+.text-right{ text-align: right; }
+.text-center{ text-align: center; }
+
+.v-align-top{ vertical-align: top; }
+.v-align-bottom{ vertical-align: bottom; }
+.v-align-middle{ vertical-align: middle; }
+
+.v-align-texttop{ vertical-align: text-top; }
+.v-align-textbottom{ vertical-align: text-bottom; }
+
+/* ################################ FONT SIZE ################################ */
+
+.font-size-12px{ font-size: 12px; }
+.font-size-16px{ font-size: 16px; }
+.font-size-18px{ font-size: 18px; }
+.font-size-20px{ font-size: 20px; }
+.font-size-24px{ font-size: 24px; }
+.font-size-32px{ font-size: 32px; }
+.font-size-48px{ font-size: 48px; }
+.font-size-64px{ font-size: 64px; }
+.font-size-72px{ font-size: 72px; }
+
+/* ################################ GENERAL SIZES ################################ */
+
+.width-100vw{ width: 100vw; }
+
+.height-100vh{ height: 100vh; }
+
+/* ################################ FLEX BOX DISPLAY ################################ */
+
+.flex-row, .flex{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row; }
+
+.flex-column{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column; }
+
+.flex-row-r{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row-reverse; }
+
+.flex-column-r{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column-reverse; }
+
+/* ################################ FLEX BOX ALIGN ################################ */
+
+.flex-align-start{ align-items: flex-start; }
+.flex-align-center{ align-items: center; }
+.flex-align-end{ align-items: flex-end; }
+.flex-align-stretch{ align-items: stretch; }
+
+/* ################################ FLEX BOX JUSTIFY ################################ */
+
+.flex-justify-start{ justify-content: flex-start; }
+.flex-justify-center{ justify-content: center; }
+.flex-justify-end{ justify-content: flex-end; }
+
+.flex-justify-around{ justify-content: space-around; }
+.flex-justify-evenly{ justify-content: space-evenly; }
+.flex-justify-between{ justify-content: space-between; }
+
+/* ################################ FLEX GROW 1 ################################ */
+
+.flex-grow-1{ flex-grow: 1; }
+
+/* ################################ BORDER SIZE ################################ */
+
+.border-disable{ border: 0px; }
+
+.border-1px{ border: 1px solid black; }
+.border-3px{ border: 3px solid black; }
+
+/* ################################ BORDER SHAPE ################################ */
+
+.border-circle-100{ border-radius: 100%; }
+
+.border-circle-50{ border-radius: 50%; }
+
+.border-normal{ border-radius: 0%; }
+
+/* ################################ PADDING ################################ */
+/* VERTICAL */
+.padding-v-3px{
+	padding-top: 3px;
+	padding-bottom: 3px; }
+
+.padding-v-6px{
+	padding-top: 6px;
+	padding-bottom: 6px; }
+
+.padding-v-8px{
+	padding-top: 8px;
+	padding-bottom: 8px; }
+
+.padding-v-12px{
+	padding-top: 12px;
+	padding-bottom: 12px; }
+
+.padding-v-24px{
+	padding-top: 24px;
+	padding-bottom: 24px; }
+
+/* HORIZONTAL */
+.padding-h-3px{
+	padding-left: 3px;
+	padding-right: 3px; }
+
+.padding-h-6px{
+	padding-left: 6px;
+	padding-right: 6px; }
+
+.padding-h-8px{
+	padding-left: 8px;
+	padding-right: 8px; }
+
+.padding-h-12px{
+	padding-left: 12px;
+	padding-right: 12px; }
+
+.padding-h-24px{
+	padding-left: 24px;
+	padding-right: 24px; }
+
+/* ################################ MARGIN ################################ */
+/* VERTICAL */
+.margin-v-3px{ 
+	margin-top: 3px;
+	margin-bottom: 3px; }
+
+.margin-v-6px{
+	margin-top: 6px;
+	margin-bottom: 6px; }
+
+.margin-v-8px{
+	margin-top: 8px;
+	margin-bottom: 8px; }
+
+.margin-v-12px{
+	margin-top: 12px;
+	margin-bottom: 12px; }
+
+.margin-v-16px{
+	margin-top: 16px;
+	margin-bottom: 16px; }
+
+.margin-v-20px{
+	margin-top: 20px;
+	margin-bottom: 20px; }
+
+/* HORIZONTAL */
+.margin-h-3px{
+	margin-left: 3px;
+	margin-right: 3px; }
+
+.margin-h-6px{
+	margin-left: 6px;
+	margin-right: 6px; }
+
+.margin-h-8px{
+	margin-left: 8px;
+	margin-right: 8px; }
+
+.margin-h-12px{
+	margin-left: 12px;
+	margin-right: 12px; }
+
+.margin-h-16px{
+	margin-left: 16px;
+	margin-right: 16px; }
+
+.margin-h-20px{
+	margin-left: 20px;
+	margin-right: 20px; }
+
+/* ################################ ANIMATION ################################ */
+
+.animate-fadeout {
+    animation: 5s forwards fadeout;
+}
+@keyframes fadeout {
+    0%   {opacity: 1;}
+    85%  {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+/* ################################ BACKGROUND ################################ */
+
+.background-blur {
+	backdrop-filter: blur(3px);
+}
+
+.background-repeat-not {
+	background-repeat: no-repeat;
+}
+
+/* ################################ OTHERS ################################ */
+
+.no-selectable {
+	-webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.no-draggable {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
