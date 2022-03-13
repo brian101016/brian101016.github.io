@@ -344,8 +344,9 @@ form > * {
     }
 
     .img-char {
-        width: var(--image-char-size);
-        height: auto;
+	    width: inherit;
+        width: min(516px, 100%);
+	    height: inherit;
         object-fit: cover;
     }
 
