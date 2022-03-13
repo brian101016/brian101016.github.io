@@ -130,8 +130,10 @@ img {
 /* ######################### IMAGES ######################### */
 
 .img-char {
-    width: var(--image-char-size);
-    height: var(--image-char-size);
+	width: inherit;
+    width: min(512px, 100%);
+	height: inherit;
+    height: min(512px, 100%);
     object-fit: cover;
 }
 
@@ -205,14 +207,17 @@ form > * {
 }
 
 .menu-title {
+	font-size: 32px;
     font-size: min(32px, calc(100vw/455 * 32));
 }
 
 .char-name, .option-name {
+	font-size: 20px;
     font-size: min(20px, calc(100vw/455 * 20));
 }
 
 .set-text {
+	font-size: calc(100vw/1024 * 72);
     font-size: clamp(24px, calc(100vw/1024 * 72), 72px);
 }
 
@@ -376,4 +381,9 @@ form > * {
     #timer-container > *{
         font-size: calc(100vw/370 * 18);
     }
+	
+	.menu-button {
+		left: 0%;
+		margin: 0px;
+	}
 }
