@@ -344,9 +344,10 @@ form > * {
     }
 
     .img-char {
-	    width: inherit;
-        width: min(516px, 100%);
-	    height: inherit;
+	width: inherit;
+    	width: min(512px, 100%);
+	height: inherit;
+    	height: min(512px, 100%);
         object-fit: cover;
     }
 
