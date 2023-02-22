@@ -134,7 +134,7 @@ function win_game(){
     window.clearInterval(interval_id);
     time_display.style.color = "#009688";
     time_display.style.fontStyle = "italic";
-    if(time_display.innerText = "00:00.000") time_display.innerText = "wow dude";
+    if(time_display.innerText === "00:00.000") time_display.innerText = "wow dude";
 
     points -= Math.floor((performance.now() - timeprev) / 1000); // Time penalty
     if(!lose_yet) points += 1000; // Winning reward
