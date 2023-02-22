@@ -1,0 +1,174 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video, main {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* aqui comienzan los estilos personalizados */
+
+html{
+    box-sizing: border-box;
+    --color-number1: blue;
+    --color-number2: green;
+    --color-number3: red;
+    --color-number4: purple;
+    --color-number5: maroon;
+    --color-number6: turquoise;
+    --color-number7: black;
+    --color-number8: gray;
+
+    --color-btn-border0: white;
+    --color-btn-border1: rgb(128, 128, 128);
+    --color-btn: rgb(192, 192, 192);
+    
+    --color-fail: #CC1618;
+
+    --color-status-good: #1730A4;
+    --color-status-lose: #FF2245;
+    --color-status-win: #faf615;
+
+    --chart-hsize: calc(100vh);
+    --chart-vsize: calc(100vh);
+    --square-size: calc(100vh / 10);
+
+    --flag: url('flag.png');
+}
+
+*{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-around;
+    background-color: wheat;
+    align-items: center;
+}
+
+/* Proyect data */
+
+.cell-not-clicked{
+    background-color: var(--color-btn);
+    border-top: 4px var(--color-btn-border0) solid;
+    border-left: 4px var(--color-btn-border0) solid;
+    border-bottom: 4px var(--color-btn-border1) solid;
+    border-right: 4px var(--color-btn-border1) solid;
+}
+
+.cell-not-clicked:hover{
+    background-color:rgb(155, 155, 155);
+}
+
+.cell-clicked{
+    border: 2px var(--color-btn-border1) solid;
+    cursor: default !important;
+}
+
+.cell{
+    background-color: var(--color-btn);
+    
+    font-size: calc( var(--square-size) / 2 );
+    font-weight: 700;
+    text-align: center;
+    height: var(--square-size);
+    width: var(--square-size);
+
+    color: transparent;
+
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    cursor: pointer;
+}
+
+#chart{
+    display: flex;
+    flex-wrap: wrap;
+    width: var(--chart-hsize);
+    height: var(--chart-vsize);
+    background-color: transparent;
+}
+
+#menu{
+    display: flex;
+    flex-direction: column;
+    margin: 66px 32px;
+
+}
+
+.bold-text{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 8px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+#chart-x, #chart-y{
+    width: 42px;
+    min-width: 42px;
+}
+
+#mines{
+    width: 48px;
+    min-width: 48px;
+}
+
+#percentage{
+    color: red;
+    text-align: center;
+    width: 3.5em;
+    font-size: 14px;
+    font-weight: 700;
+    /* text-decoration: line-through; */
+    padding: 1px 4px;
+}

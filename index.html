@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="./mine.css" rel="stylesheet"/>
+        <title>Minesweeper</title>
+    </head>
+
+    <body>
+        
+        <div id="menu">
+
+            <span class="bold-text text-center" style="color:indigo; margin-right: 4px;"> < Minesweeper > </span>
+            <br><br>
+
+            <div style="display: flex;">
+                <span class="bold-text text-center" > Status:&nbsp;</span>
+                <span id="status" class="bold-text text-center" style="color: #5A341C;"> Waiting... </span>
+            </div>
+            <br>
+
+            <div style="display: flex;">
+                <span class="bold-text text-center" > Mines:&nbsp;</span>
+                <span id="mines" class="bold-text text-center" style="color:rgb(168, 2, 2);"> Waiting... </span>
+            </div>
+            <br>
+
+            <div style="display: flex;">
+                <span class="bold-text text-center" > Time:&nbsp;</span>
+                <span id="time" class="bold-text text-center" style="color:rgb(20, 175, 14);">00:00.000</span>
+            </div>
+            <br>
+
+            <div style="display: flex;">
+                <span class="bold-text text-center" > Points:&nbsp;</span>
+                <span id="points" class="bold-text text-center" style="color:rgb(90, 77, 4);">0</span>
+            </div>
+            <br>
+
+            <div style="display: flex;">
+                <span class="bold-text text-center" >&nbsp;&nbsp;&nbsp;High:&nbsp;</span>
+                <span id="highscore" class="bold-text text-center" style="color:rgb(90, 77, 4);">0</span>
+            </div>
+
+            <br><br>
+
+            <button id="start-game" style="padding: 6px; font-size: 20px;" hidden="true">Start Game</button>
+            <!-- <br> -->
+
+            <button id="new-game" style="padding: 6px; font-size: 20px;">New Game</button>
+            <br><br>
+
+            <span class="bold-text text-center" style="color: darkviolet;">Customize:</span>
+            <br>
+            <form>
+                <label class="bold-text text-center">Mines: </label>
+                <input id="mines" type="number" min="1" max="100"/>
+                <button id="percentage">% off</button>
+                <br><br>
+
+                <label class="bold-text text-center">&nbsp;Chart:</label>
+                <input id="chart-x" type="number" min="3" max="20"/>
+                <label>x</label>
+                <input id="chart-y" type="number" min="3" max="20"/>
+                <br><br><br>
+            </form>
+
+            <button id="default" style="padding: 4px; font-size: 16px;">Default Settings</button>
+
+        </div>
+
+        <div id="chart">
+        </div>
+
+        <script src="./mine.js"></script>
+
+    </body>
+</html>
