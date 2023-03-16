@@ -1,4 +1,364 @@
 {
-  "dummy": {
-  }
+  "Lunes": [
+    {
+      "Asignatura": "asd",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    }
+  ],
+  "Martes": [
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    }
+  ],
+  "Miércoles": [
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    }
+  ],
+  "Jueves": [
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    }
+  ],
+  "Viernes": [
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    },
+    {
+      "Asignatura": "",
+      "Grupo": 0,
+      "Maestro": ""
+    }
+  ],
+  "Maestros": ["Primero", "Segundo", "Tercero"],
+  "Asignaturas": ["Uno", "Dos", "Tres", "Cuatro", "Cinco", "Seis"]
 }
