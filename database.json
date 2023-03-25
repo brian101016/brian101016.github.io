@@ -1,386 +1,390 @@
 {
-  "Lunes": [
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 0,
-      "Grupo": 1,
-      "Maestro": 0
-    },
-    {
-      "Asignatura": 0,
-      "Grupo": 1,
-      "Maestro": 0
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 1,
-      "Maestro": 1
-    },
-    {
-      "Asignatura": 2,
-      "Grupo": 4,
-      "Maestro": 2
-    },
-    {
-      "Asignatura": 3,
-      "Grupo": 1,
-      "Maestro": 3
-    },
-    {
-      "Asignatura": 3,
-      "Grupo": 1,
-      "Maestro": 3
-    },
-    {
-      "Asignatura": 3,
-      "Grupo": 2,
-      "Maestro": 3
-    },
-    {
-      "Asignatura": 3,
-      "Grupo": 2,
-      "Maestro": 3
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    }
-  ],
-  "Martes": [
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 29,
-      "Maestro": 4
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 29,
-      "Maestro": 4
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 1,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": 2,
-      "Grupo": 4,
-      "Maestro": 2
-    },
-    {
-      "Asignatura": 5,
-      "Grupo": 2,
-      "Maestro": 6
-    },
-    {
-      "Asignatura": 6,
-      "Grupo": 2,
-      "Maestro": 7
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 2,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 2,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 30,
-      "Maestro": 8
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 30,
-      "Maestro": 8
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    }
-  ],
-  "Miércoles": [
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 7,
-      "Grupo": 2,
-      "Maestro": 9
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 5,
-      "Grupo": 2,
-      "Maestro": 6
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 6,
-      "Grupo": 2,
-      "Maestro": 10
-    },
-    {
-      "Asignatura": 6,
-      "Grupo": 2,
-      "Maestro": 10
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    }
-  ],
-  "Jueves": [
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 30,
-      "Maestro": 8
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    }
-  ],
-  "Viernes": [
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 4,
-      "Grupo": 29,
-      "Maestro": 11
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 1,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 1,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 5,
-      "Grupo": 2,
-      "Maestro": 6
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 2,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": 1,
-      "Grupo": 2,
-      "Maestro": 5
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    },
-    {
-      "Asignatura": -1,
-      "Grupo": -1,
-      "Maestro": -1
-    }
-  ],
-  "Asignatura": [
-    "PLAN DE NEGOCIOS PARA TIC'S",
-    "CÁLCULO DIFERENCIAL",
-    "ÁLGEBRA LINEAL",
-    "HERRAMIENTAS COMPUTACIONALES",
-    "CUIDADO DE LA SALUD",
-    "MEDIOS Y PROTOCOLOS DE COMUNICACIÓN",
-    "SEGURIDAD E INTEGRIDAD DE LA INFORMACIÓN",
-    "MATEMÁTICAS COMPUTACIONALES"
-  ],
-  "Maestro": [
-    "JORGE ARMANDO OCHOA VÁSQUEZ",
-    "ANGEL IGNACIO",
-    "LORENA FDZ",
-    "MIGUEL ÁNGEL ROMERO OCHOA",
-    "MIRANDA GONZÁLEZ",
-    "ÁNGEL IGNACIO OCAÑA BENÍTEZ",
-    "PATRICIA C.",
-    "JALIL GERARDO",
-    "CARLOS ALFONSO ABIN GALINDO",
-    "MARTÍN ANDUAGA",
-    "JALIL GERARDO ESPINOZA ZEPEDA",
-    "EGBERTO MIRANDA GONZÁLEZ"
-  ]
+  "dias": {
+    "Lunes": [
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 0,
+        "Grupo": 1,
+        "Maestro": 0
+      },
+      {
+        "Asignatura": 0,
+        "Grupo": 1,
+        "Maestro": 0
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 1,
+        "Maestro": 1
+      },
+      {
+        "Asignatura": 2,
+        "Grupo": 4,
+        "Maestro": 2
+      },
+      {
+        "Asignatura": 3,
+        "Grupo": 1,
+        "Maestro": 3
+      },
+      {
+        "Asignatura": 3,
+        "Grupo": 1,
+        "Maestro": 3
+      },
+      {
+        "Asignatura": 3,
+        "Grupo": 2,
+        "Maestro": 3
+      },
+      {
+        "Asignatura": 3,
+        "Grupo": 2,
+        "Maestro": 3
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      }
+    ],
+    "Martes": [
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 29,
+        "Maestro": 4
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 29,
+        "Maestro": 4
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 1,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": 2,
+        "Grupo": 4,
+        "Maestro": 2
+      },
+      {
+        "Asignatura": 5,
+        "Grupo": 2,
+        "Maestro": 6
+      },
+      {
+        "Asignatura": 6,
+        "Grupo": 2,
+        "Maestro": 7
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 2,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 2,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 30,
+        "Maestro": 8
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 30,
+        "Maestro": 8
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      }
+    ],
+    "Miércoles": [
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 7,
+        "Grupo": 2,
+        "Maestro": 9
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 5,
+        "Grupo": 2,
+        "Maestro": 6
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 6,
+        "Grupo": 2,
+        "Maestro": 10
+      },
+      {
+        "Asignatura": 6,
+        "Grupo": 2,
+        "Maestro": 10
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      }
+    ],
+    "Jueves": [
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 30,
+        "Maestro": 8
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      }
+    ],
+    "Viernes": [
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 4,
+        "Grupo": 29,
+        "Maestro": 11
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 1,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 1,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 5,
+        "Grupo": 2,
+        "Maestro": 6
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 2,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": 1,
+        "Grupo": 2,
+        "Maestro": 5
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      },
+      {
+        "Asignatura": -1,
+        "Grupo": -1,
+        "Maestro": -1
+      }
+    ]
+  },
+  "campos": {
+    "Asignatura": [
+      "PLAN DE NEGOCIOS PARA TIC'S",
+      "CÁLCULO DIFERENCIAL",
+      "ÁLGEBRA LINEAL",
+      "HERRAMIENTAS COMPUTACIONALES",
+      "CUIDADO DE LA SALUD",
+      "MEDIOS Y PROTOCOLOS DE COMUNICACIÓN",
+      "SEGURIDAD E INTEGRIDAD DE LA INFORMACIÓN",
+      "MATEMÁTICAS COMPUTACIONALES"
+    ],
+    "Maestro": [
+      "JORGE ARMANDO OCHOA VÁSQUEZ",
+      "ANGEL IGNACIO",
+      "LORENA FDZ",
+      "MIGUEL ÁNGEL ROMERO OCHOA",
+      "MIRANDA GONZÁLEZ",
+      "ÁNGEL IGNACIO OCAÑA BENÍTEZ",
+      "PATRICIA C.",
+      "JALIL GERARDO",
+      "CARLOS ALFONSO ABIN GALINDO",
+      "MARTÍN ANDUAGA",
+      "JALIL GERARDO ESPINOZA ZEPEDA",
+      "EGBERTO MIRANDA GONZÁLEZ"
+    ]
+  }
 }
